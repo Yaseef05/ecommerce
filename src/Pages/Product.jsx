@@ -14,7 +14,7 @@ const Product = () => {
    e.id === Number(productId))
   return (
     <div>
-      <Breadcrums product={product} />
+      <Breadcrums product={product} /> 
       <ProductDisplay product={product} />
       <DescriptionBox />
       <RelatedProducts />
