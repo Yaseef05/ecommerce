@@ -14,7 +14,7 @@ const {getTotalCartItems} =useContext(ShopContext);
       <div className='nav-logo'>
         <img src={logo} alt=''></img>
         <p>SHOPPER</p>
-
+ 
       </div>
       <ul className='nav-menu'>
         <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}} to='/'>shop</Link>{menu==="shop"?<hr/>:<></>}</li>
